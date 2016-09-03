@@ -22,7 +22,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 function MyUppercasePipe() {
                 }
                 MyUppercasePipe.prototype.transform = function (value) {
-                    return value;
+                    return value.toUpperCase();
                 };
                 MyUppercasePipe = __decorate([
                     core_1.Pipe({ name: 'my-uppercase' }), 
